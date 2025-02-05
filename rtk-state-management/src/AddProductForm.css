@@ -1,0 +1,63 @@
+/* App.css */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-container.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+}
+
+.text-red-500 {
+  color: red;
+}
+
+.bg-blue-500 {
+  background-color: blue;
+}
+
+.text-white {
+  color: white;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.bg-gray-500 {
+  background-color: gray;
+}
